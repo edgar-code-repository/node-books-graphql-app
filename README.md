@@ -1,6 +1,7 @@
 BOOKS APP
--------------------------------------------------------------------
+----------------------------------------------------------------------------------
 
-Aplicación que permite manipular información de libros.
+Aplicación GraphQL desarrollada con NodeJS, Express y GraphQL, 
+que permite manipular información de libros.
 
--------------------------------------------------------------------
+----------------------------------------------------------------------------------
