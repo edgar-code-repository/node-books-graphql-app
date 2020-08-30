@@ -21,14 +21,14 @@ const booksList = [
         topic: "Fiction"
     },
     {
-        id:4,
+        id: 4,
         title: "Emotional Intelligence",
         author: "Daniel Goleman",
         description: "Everyone knows that high IQ is no guarantee of success, happiness, or virtue, but until Emotional Intelligence, we could only guess why. Daniel Goleman's brilliant report from the frontiers of psychology and neuroscience offers startling new insight into our 'two minds'—the rational and the emotional—and how they together shape our destiny.",
         topic: "Psychology"
     },
     { 
-        id:5, 
+        id: 5, 
         title: "Brave New World", 
         author: "Aldous Huxley", 
         description: "Largely set in a futuristic World State, whose citizens are environmentally engineered into an intelligence-based social hierarchy, the novel anticipates huge scientific advancements in reproductive technology, sleep-learning, psychological manipulation and classical conditioning that are combined to make a dystopian society which is challenged by only a single individual: the story's protagonist.",
