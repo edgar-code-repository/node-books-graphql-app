@@ -11,7 +11,7 @@ const schema = buildSchema(`
       title: String
       author: String
       description: String
-      category: String
+      topic: String
     }
 `);
 
