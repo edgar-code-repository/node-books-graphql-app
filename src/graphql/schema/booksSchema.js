@@ -12,6 +12,7 @@ const schema = buildSchema(`
       author: String
       description: String
       topic: String
+      imageUrl: String
     }
 `);
 
