@@ -1,27 +1,52 @@
-const booksList = require('./data');
+const { books, authors, topics } = require('./data');
 
 const getBooks = (args) => {
-    return booksList;
+    console.log("[booksResolver][getBooks][args:" , args , "]")
+    return books;
 }
 
 const getBook = (args) => { 
+    console.log("[booksResolver][getBook][args:" , args , "]")
     const id = args.id;
-    return booksList.find(book => book.id == id);
+    return books.find(book => book.id == id);
 }
 
 const getBooksByTopic = (args) => {
+    console.log("[booksResolver][getBooksByTopic][args:" , args , "]")
     if (args.topic) {
         const topic = args.topic;
-        return booksList.filter(book => book.topic === topic);
+        return books.filter(book => book.topic === topic);
     } else {
-        return booksList;
+        return books;
+    }
+}
+
+const getAuthors = (args) => {
+    console.log("[booksResolver][getAuthors][args:" , args , "]")
+    if (args.id) {
+        const id = args.id;
+        return authors.filter(author => author.id === id);
+    } else {
+        return authors;
+    }
+}
+
+const getTopics = (args) => {
+    console.log("[booksResolver][getTopics][args:" , args , "]")
+    if (args.id) {
+        const id = args.id;
+        return topics.filter(topic => topic.id === id);
+    } else {
+        return topics;
     }
 }
 
 const booksResolver = {
     books: getBooks,
     book: getBook,
-    booksByTopic: getBooksByTopic
+    booksByTopic: getBooksByTopic,
+    authors: getAuthors,
+    topics: getTopics,  
 };
 
 module.exports = booksResolver

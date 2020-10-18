@@ -9,11 +9,20 @@ const schema = buildSchema(`
     type Book {
       id: Int
       title: String
-      author: String
+      authors: [Author]
       description: String
-      topic: String
+      topic: Topic
       imageUrl: String
-    }
+    },
+    type Author {
+      id: Int
+      firstName: String
+      lastName: String
+    },
+    type Topic {
+      id: Int
+      name: String
+    }    
 `);
 
 module.exports = schema
