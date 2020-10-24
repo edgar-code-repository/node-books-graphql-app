@@ -8,10 +8,10 @@ que permite manipular información de libros.
 
 **Se gatillan querys en GraphiQL:**
 
-![Screenshot Books](screenshots/books.png)
+![Screenshot Books](screenshots/node-graphql-books.png)
 
-![Screenshot BookById](screenshots/book-by-id.png)
+![Screenshot BookById](screenshots/node-graphql-book-by-id.png)
 
-![Screenshot BooksByTopic](screenshots/books-by-topic.png)
+![Screenshot BooksByTopic](screenshots/node-graphql-books-by-topic.png)
 
 ----------------------------------------------------------------------------------

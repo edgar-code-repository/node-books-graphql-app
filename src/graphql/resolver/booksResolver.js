@@ -14,8 +14,8 @@ const getBook = (args) => {
 const getBooksByTopic = (args) => {
     console.log("[booksResolver][getBooksByTopic][args:" , args , "]")
     if (args.topic) {
-        const topic = args.topic;
-        return books.filter(book => book.topic === topic);
+        const topicName = args.topic;
+        return books.filter(book => book.topic.name === topicName);
     } else {
         return books;
     }
