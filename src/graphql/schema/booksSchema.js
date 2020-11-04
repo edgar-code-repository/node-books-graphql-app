@@ -5,6 +5,8 @@ const schema = buildSchema(`
       books: [Book]
       booksByTopic(topic: String): [Book]
       book(id: Int!): Book
+      authors(id: String): [Author]
+      topics(id: String): [Topic]
     },
     type Book {
       id: Int

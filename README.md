@@ -14,4 +14,8 @@ que permite manipular información de libros.
 
 ![Screenshot BooksByTopic](screenshots/node-graphql-books-by-topic.png)
 
+![Screenshot Authors](screenshots/node-graphql-authors.png)
+
+![Screenshot Topics](screenshots/node-graphql-topics.png)
+
 ----------------------------------------------------------------------------------
